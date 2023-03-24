@@ -1,0 +1,17 @@
+{
+  "inputs": [
+    {
+      "key": "spotify_auth",
+      "title": "Spotify",
+      "description": "Connect your Spotify account",
+      "type": "oauth2",
+      "authorization_url": "https://accounts.spotify.com/authorize",
+      "client_id": "71f8901703164a7088404a34c78c1719",
+      "client_secret": "d82c4fa7a9ab440093558c67b12b225c",
+      "scopes": [
+        "user-read-email, user-read-private, playlist-read-private, playlist-read-collaborative, user-top-read"
+      ],
+      "token_url": "https://accounts.spotify.com/api/token"
+    }
+  ]
+}
